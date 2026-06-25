@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imobiliaria xmlns="http://imobiliaria.org" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://imobiliaria.org imobiliaria.xsd">
+    
+    <imovel>
+        <descricao>Sobrado espaçoso com área gourmet e churrasqueira</descricao>
+        <proprietario>
+            <nome>Roberto Costa</nome>
+            <email>roberto.costa@imoveis.com</email>
+            <telefone>99911-0000</telefone>
+            <telefone>98822-3333</telefone>
+            
+        </proprietario>
+        <endereco>
+            <rua>Avenida dos Girassóis</rua>
+            <bairro>Capim Macio</bairro>
+            <cidade>Natal</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>250.5</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>650000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Flat mobiliado com vista panorâmica</descricao>
+        <proprietario>
+            <nome>Ana Clara Martins</nome>
+            <telefone>97733-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua do Sol</rua>
+            <bairro>Petrópolis</bairro>
+            <cidade>Natal</cidade>
+            <número>1020</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45.0</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>280000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de condomínio fechado com segurança 24h</descricao>
+        <proprietario>
+            <nome>Pedro Paulo Dias</nome>
+            <email>pedro.dias@email.com</email>
+        </proprietario>
+        <endereco>
+            <rua>Alameda das Árvores</rua>
+            <bairro>Parque das Nações</bairro>
+            <cidade>Parnamirim</cidade>
+            <número>15</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>180.0</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>2</numBanheiros>
+        </caracteristicas>
+        <valor>520000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Cobertura duplex com piscina privativa</descricao>
+        <proprietario>
+            <nome>Juliana Marques</nome>
+            <telefone>96644-5555</telefone>
+            
+        </proprietario>
+        <endereco>
+            <rua>Avenida Engenheiro Roberto Freire</rua>
+            <bairro>Ponta Negra</bairro>
+            <cidade>Natal</cidade>
+            <número>800</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>210.5</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>950000</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Terreno amplo pronto para construção</descricao>
+        <proprietario>
+            <nome>Marcos Tulio</nome>
+            <email>juliana.m@email.com</email>
+            <telefone>95588-7777</telefone>
+            <telefone>94499-8888</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rua Projetada A</rua>
+            <bairro>Nova Parnamirim</bairro>
+            <cidade>Parnamirim</cidade>
+            <número>300</número>
+        </endereco>
+        <caracteristicas>
+            <tamanho>400.0</tamanho>
+            <numQuartos>0</numQuartos>
+            <numBanheiros>0</numBanheiros>
+        </caracteristicas>
+        <valor>120000</valor>
+    </imovel>
+
+</imobiliaria>

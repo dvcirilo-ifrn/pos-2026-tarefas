@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+
+<cardapio>
+    
+    <prato id="p001">
+        <nome>Feijoada Completa</nome>
+        <descricao>Tradicional prato brasileiro servido com arroz branco, farofa, couve refogada e rodelas de laranja.</descricao>
+        <ingredientes>
+            <ingrediente>Feijão preto</ingrediente>
+            <ingrediente>Carne seca</ingrediente>
+            <ingrediente>Lombo de porco</ingrediente>
+            <ingrediente>Linguiça calabresa</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 45,00</preco>
+        <calorias>850 kcal</calorias>
+        <tempoPreparo>45 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p002">
+        <nome>Espaguete à Carbonara</nome>
+        <descricao>Massa clássica italiana com molho cremoso à base de gemas de ovo, queijo e carne suína curada.</descricao>
+        <ingredientes>
+            <ingrediente>Espaguete</ingrediente>
+            <ingrediente>Guanciale (ou pancetta)</ingrediente>
+            <ingrediente>Gemas de ovo</ingrediente>
+            <ingrediente>Queijo pecorino romano</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 52,00</preco>
+        <calorias>650 kcal</calorias>
+        <tempoPreparo>20 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p003">
+        <nome>Salmão Grelhado com Legumes</nome>
+        <descricao>Filé de salmão fresco grelhado no azeite, acompanhado de uma seleção de legumes cozidos no vapor.</descricao>
+        <ingredientes>
+            <ingrediente>Filé de salmão</ingrediente>
+            <ingrediente>Brócolis</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Azeite de oliva</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 68,00</preco>
+        <calorias>420 kcal</calorias>
+        <tempoPreparo>30 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p004">
+        <nome>Salada Caesar com Frango</nome>
+        <descricao>Salada leve e crocante com tiras de frango grelhado e molho especial.</descricao>
+        <ingredientes>
+            <ingrediente>Alface romana</ingrediente>
+            <ingrediente>Tiras de frango</ingrediente>
+            <ingrediente>Croutons</ingrediente>
+            <ingrediente>Molho Caesar</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 35,00</preco>
+        <calorias>380 kcal</calorias>
+        <tempoPreparo>15 minutos</tempoPreparo>
+    </prato>
+
+    <prato id="p005">
+        <nome>Hambúrguer Artesanal Clássico</nome>
+        <descricao>Hambúrguer suculento de blend bovino, servido no pão tostado com acompanhamento de batatas fritas rústicas.</descricao>
+        <ingredientes>
+            <ingrediente>Pão brioche</ingrediente>
+            <ingrediente>Blend de carne bovina</ingrediente>
+            <ingrediente>Queijo cheddar</ingrediente>
+            <ingrediente>Alface americana e tomate</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL">&reais; 42,00</preco>
+        <calorias>950 kcal</calorias>
+        <tempoPreparo>25 minutos</tempoPreparo>
+    </prato>
+</cardapio>

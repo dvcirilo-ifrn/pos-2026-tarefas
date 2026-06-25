@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+    <!ELEMENT imobiliaria (imovel+)>
+    <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+        <!ELEMENT descricao (#PCDATA)>
+
+        <!ELEMENT proprietario (nome, (email | telefone)+)>
+            <!ELEMENT nome (#PCDATA)>
+            <!ELEMENT email (#PCDATA)>
+            <!ELEMENT telefone (#PCDATA)>
+
+        <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+            <!ELEMENT rua (#PCDATA)>
+            <!ELEMENT bairro (#PCDATA)>
+            <!ELEMENT cidade (#PCDATA)>
+            <!ELEMENT numero (#PCDATA)>
+
+        <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+            <!ELEMENT tamanho (#PCDATA)>
+            <!ELEMENT numQuartos (#PCDATA)>
+            <!ELEMENT numBanheiros (#PCDATA)>
+
+        <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+    <imovel>
+        <descricao>Cobertura Duplex Luxuosa</descricao>
+        <proprietario>
+            <nome>Roberto Albuquerque</nome>
+            <email>roberto.investimentos@email.com</email>
+            <telefone>+55 11 91111-1111</telefone>
+            <telefone>+55 11 3333-3333</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Paulista</rua>
+            <bairro>Bela Vista</bairro>
+            <cidade>São Paulo</cidade>
+            <numero>1500</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>320m²</tamanho>
+            <numQuartos>4</numQuartos>
+            <numBanheiros>5</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 5.500.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Casa de Praia com Piscina</descricao>
+        <proprietario>
+            <nome>Juliana Martins</nome>
+            <telefone>+55 81 92222-2222</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Avenida Boa Viagem</rua>
+            <bairro>Boa Viagem</bairro>
+            <cidade>Recife</cidade>
+            <numero>420</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>150m²</tamanho>
+            <numQuartos>3</numQuartos>
+            <numBanheiros>3</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 1.850.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Sítio de Alto Padrão para Lazer</descricao>
+        <proprietario>
+            <nome>Fernando Costa</nome>
+            <email>fernando.rural@email.com</email>
+            <telefone>+55 31 93333-3333</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Estrada do Café</rua>
+            <bairro>Zona Rural</bairro>
+            <cidade>Ouro Preto</cidade>
+        </endereco>
+        <caracteristicas>
+            <tamanho>5000m²</tamanho>
+            <numQuartos>6</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 2.200.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Studio Moderno Automatizado</descricao>
+        <proprietario>
+            <nome>Camila Rezende</nome>
+            <email>camila.arq@email.com</email>
+            <telefone>+55 41 94444-4444</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Alameda das Árvores</rua>
+            <bairro>Batel</bairro>
+            <cidade>Curitiba</cidade>
+            <numero>85</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>45m²</tamanho>
+            <numQuartos>1</numQuartos>
+            <numBanheiros>1</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 650.000,00</valor>
+    </imovel>
+
+    <imovel>
+        <descricao>Galpão Logístico Industrial</descricao>
+        <proprietario>
+            <nome>Marcos Silva</nome>
+            <email>marcos.business@email.com</email>
+            <telefone>+55 51 95555-5555</telefone>
+        </proprietario>
+        <endereco>
+            <rua>Rodovia do Comércio</rua>
+            <bairro>Distrito Industrial</bairro>
+            <cidade>Porto Alegre</cidade>
+            <numero>1024</numero>
+        </endereco>
+        <caracteristicas>
+            <tamanho>1200m²</tamanho>
+            <numQuartos>2</numQuartos>
+            <numBanheiros>4</numBanheiros>
+        </caracteristicas>
+        <valor>R$ 4.000.000,00</valor>
+    </imovel>
+</imobiliaria>

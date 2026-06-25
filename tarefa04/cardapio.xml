@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cardapio xmlns="http://cardapio.org" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://cardapio.org cardapio.xsd">
+
+    <prato idPrato="101">
+        <nome>Churrasco Misto</nome>
+        <descricao>Seleção de carnes nobres grelhadas na brasa.</descricao>
+        <ingredientes>
+            <ingrediente>Picanha</ingrediente>
+            <ingrediente>Linguiça Toscana</ingrediente>
+            <ingrediente>Coração de frango</ingrediente>
+        </ingredientes>
+        <preco>85.50</preco>
+        <calorias>1200</calorias>
+        <tempoPreparo>40 min</tempoPreparo>
+    </prato>
+
+    <prato idPrato="102">
+        <nome>Moqueca de Peixe</nome>
+        <descricao>Ensopado clássico de peixe com leite de coco e azeite de dendê.</descricao>
+        <ingredientes>
+            <ingrediente>Peixe branco (Cação ou Badejo)</ingrediente>
+            <ingrediente>Leite de coco</ingrediente>
+            <ingrediente>Azeite de dendê</ingrediente>
+            <ingrediente>Pimentão colorido</ingrediente>
+        </ingredientes>
+        <preco>65.00</preco>
+        <calorias>850</calorias>
+        <tempoPreparo>50 min</tempoPreparo>
+    </prato>
+
+    <prato idPrato="103">
+        <nome>Frango à Parmegiana</nome>
+        <descricao>Filé de frango empanado coberto com queijo gratinado e molho.</descricao>
+        <ingredientes>
+            <ingrediente>Filé de frango</ingrediente>
+            <ingrediente>Queijo Muçarela</ingrediente>
+            <ingrediente>Molho de tomate caseiro</ingrediente>
+        </ingredientes>
+        <preco>35.90</preco>
+        <calorias>780</calorias>
+        <tempoPreparo>35 min</tempoPreparo>
+    </prato>
+
+    <prato idPrato="104">
+        <nome>Yakisoba Tradicional</nome>
+        <descricao>Macarrão oriental salteado com legumes frescos e tiras de carne.</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão para Yakisoba</ingrediente>
+            <ingrediente>Carne bovina em tiras</ingrediente>
+            <ingrediente>Brócolis</ingrediente>
+            <ingrediente>Molho Shoyu</ingrediente>
+        </ingredientes>
+        <preco>29.90</preco>
+        <calorias>600</calorias>
+        <tempoPreparo>25 min</tempoPreparo>
+    </prato>
+
+    <prato idPrato="105">
+        <nome>Bobó de Camarão</nome>
+        <descricao>Creme aveludado de mandioca com camarões frescos e temperos.</descricao>
+        <ingredientes>
+            <ingrediente>Camarão médio</ingrediente>
+            <ingrediente>Mandioca (Macaxeira)</ingrediente>
+            <ingrediente>Leite de coco</ingrediente>
+            <ingrediente>Coentro fresco</ingrediente>
+        </ingredientes>
+        <preco>72.50</preco>
+        <calorias>900</calorias>
+        <tempoPreparo>60 min</tempoPreparo>
+    </prato>
+
+</cardapio>
